@@ -1,0 +1,128 @@
+#head {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#row1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#letters {
+    margin: auto;
+    height: auto;
+    width: 500px;
+}
+
+#area1 {
+    text-align: center;
+    /* display: flex; */
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5%;
+    width: 40%;
+    height: 30%;
+    margin-left: 125px;
+}
+
+#answer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#wordgrid1 {
+    margin: auto;
+    height: 60px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    border-top: solid thick black;
+    border-left: solid thick black;
+    border-right: solid thick black;
+}
+
+.wordgrid2 {
+    margin: auto;
+    height: 60px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    border-left: solid thick black;
+    border-right: solid thick black;
+}
+
+#wordgrid3 {
+    margin: auto;
+    height: 60px;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    border-bottom: solid thick black;
+    border-left: solid thick black;
+    border-right: solid thick black;
+}
+
+.letgrid1 {
+    border: thin solid black;
+    text-align: center;
+}
+
+.letgrid2 {
+    border: thin solid black;
+    text-align: center;
+}
+
+.letgrid3 {
+    border: thin solid black;
+    text-align: center;
+}
+
+.letgrid4 {
+    border: thin solid black;
+    text-align: center;
+}
+
+.letgrid5 {
+    border: thin solid black;
+    text-align: center;
+}
+
+.letgrid6 {
+    border: thin solid black;
+    text-align: center;
+}
+
+#unvalid {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    color: #2cff2b;
+}
+
+#resetbutton {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#resetdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#playarea {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
